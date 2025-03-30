@@ -8,6 +8,7 @@ public class Vehiculo {
     public Vehiculo(String placa, String tipo) {
         this.placa = placa;
         this.tipo = tipo;
+        this.ejes = 0;
 
     }
 
