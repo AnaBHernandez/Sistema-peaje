@@ -16,7 +16,7 @@ public class Peaje {
         this.vehiculos = new ArrayList<>();
     }
 
-    public double CalcularPeaje(Vehiculo vehiculo) {
+    public double calcularPeaje(Vehiculo vehiculo) {
         double valorPeaje = 0.0;
         if (vehiculo.getTipo().equalsIgnoreCase("coche")) {
             valorPeaje = 100;
